@@ -6,12 +6,12 @@ import random
 
 # Initialize Chrome WebDriver
 # Replace with your Chrome WebDriver path
-driver = webdriver.Chrome(executable_path='/path/to/chromedriver')
+driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
 
 # Instagram login function
 
 
-def instagram_login(username, password):
+def instagram_login(workstudypl, Mandem123):
     driver.get("https://www.instagram.com/")
     time.sleep(3)
 
@@ -61,4 +61,5 @@ def like_posts_by_hashtag(hashtag, max_likes=10):
 
 
 # Use the function to start liking posts
-like_posts_by_hashtag("pythonprogramming")
+like_posts_by_hashtag("Rwanda")
+like_posts_by_hashtag("poland")
